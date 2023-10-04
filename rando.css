@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: black; */
+    background-image: url(pain.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box{
+background-color: transparent;
+padding-top: 30px;
+padding: 30px;
+width: 100%;
+border: 1px solid white;
+border-radius: 20px;
+}
+
+.box:hover {
+    background-color: rgb(39, 37, 37);
+}
+
+.box h2{
+margin-bottom: 40px;
+text-align: center;
+font-size: 1em;
+text-transform: uppercase;
+color: rgb(116, 8, 116);
+font-family: Quicksand, sans-serif;
+}
+
+input {
+  padding: 20px;
+    user-select: none;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border-radius: 6px;
+    color: white;
+    font-family: Quicksand;
+    background-color: black;
+    border: 2px solid white;
+    outline: none;
+    font-weight: thin;
+    font-size: 20px;
+}
+
+input:hover {
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+input::placeholder{
+  font-size: 20px;
+  font-family: Gotham;
+} 
+
+#button {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-family: Gotham;
+    margin-top: 40px;
+    border: 2px solid white;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 7px;
+
+ 
+}
+.btn2{
+margin-left: 85px
+}
+
+#button:hover {
+    color: black;
+    background-color: white;
+}
