@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&family=Comfortaa&family=DM+Serif+Display&family=Montserrat&family=Poppins&display=swap");
+
+
+.container {
+    width: 100%;
+    background-color: #000;
+    background-image: url('bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.703);
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+
+.box:hover {
+    background-color: #000;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+input {
+    display: block;
+    color: green;
+    width: 70%;
+    margin: 20px auto;
+    padding: 14px 10px;
+    background-color: rgba(0, 0, 0, 0.539);
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    box-sizing: border-box;
+    transition: 400ms;
+}
+
+input:focus {
+    border: 2px solid white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 3px 7px;
+    border: 2px solid gray;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
+@media (max-width: 660px) {
+    .box {
+        width: 90%;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    button {
+        font-size: .7em;
+        font-weight: lighter;
+    }
+}
