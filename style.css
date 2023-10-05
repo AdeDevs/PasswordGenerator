@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comfortaa&family=DM+Serif+Display&family=Montserrat&family=Poppins&display=swap");
+
+
+.container {
+    width: 100%;
+    background-color: #333;
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: #fff;
+}
