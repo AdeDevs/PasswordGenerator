@@ -75,7 +75,7 @@ button:hover {
     border: 2px solid white;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 970px) {
     .box {
         width: 70%;
     }
