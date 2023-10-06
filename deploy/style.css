@@ -75,7 +75,22 @@ button:hover {
     border: 2px solid white;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 950px) {
+    .box {
+        width: 70%;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    button {
+        font-size: .7em;
+        margin: 3px 20px;
+        padding: 14px 30px;
+        font-weight: lighter;
+    }
+}
+
+@media (max-width: 600px) {
     .box {
         width: 90%;
     }
